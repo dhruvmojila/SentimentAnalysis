@@ -1,0 +1,26 @@
+{
+  "name": "node-nlp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "apos-to-lex-form": "^1.0.5",
+    "compendium-js": "^0.0.31",
+    "compromise": "^14.10.0",
+    "cookie-parser": "~1.4.4",
+    "csv-parser": "^3.0.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fs": "^0.0.2",
+    "morgan": "~1.9.1",
+    "natural": "^6.7.2",
+    "nodemon": "^3.0.1",
+    "sentiment": "^5.0.2",
+    "simple-sentiment-lib": "^1.1.8",
+    "spelling-corrector": "^3.0.0",
+    "stopword": "^2.0.8"
+  }
+}
